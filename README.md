@@ -1,10 +1,12 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Nuxt 3 with Net7 SPA Minimal Starter
 
 ## Setup
 
-Make sure to install the dependencies:
+安裝 npm 相關 package
+
+在專案根目錄，切換到 ClientApp 資料夾
+
+執行:
 
 ```bash
 # yarn
@@ -19,24 +21,12 @@ pnpm install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`
+在 visual studio 執行 F5 偵錯模式
 
-```bash
-npm run dev
-```
+會以 spa 的方式執行 npm run dev
+
+並且自動打開瀏覽器 proxy 到 `http://localhost:3000`
 
 ## Production
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+執行 .net 發佈
